@@ -15,14 +15,14 @@ except IOError:
 old_python = sys.version_info < (2, 7)
 
 setup(
-    name='ABpowerline',
+    name='powerlineAB',
     version='develop',
     description='The ultimate statusline/prompt utility.',
     long_description=README,
     classifiers=[],
     author='Kim Silkebaekken',
     author_email='kim.silkebaekken+vim@gmail.com',
-    url='https://github.com/Lokaltog/powerline',
+    url='https://github.com/abuecker/powerline',
     scripts=[
         'scripts/powerline',
         'scripts/powerline-lint',

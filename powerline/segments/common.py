@@ -29,7 +29,7 @@ def chef(pl, segment_info, variable=None):
     :param string variable:
         The environment variable to return if found
     '''
-    return segment_info['chef'].get(variable, None)
+    return segment_info['environ'].get(variable, None)
 
 @requires_segment_info
 def environment(pl, segment_info, variable=None):
